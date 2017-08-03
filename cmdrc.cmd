@@ -37,6 +37,7 @@ doskey startwork = cd c:\Users\matthew.cooper\development\BenefitPointDev ^&^& m
 
 :: Common directories
 
-::DOSKEY box=cd "C:\Users\matthew.cooper\Box SyncS\$*"" 
+doskey npp = start "Notepad++" /B "C:\Program Files\Notepad++\notepad++.exe" $*
+doskey box = cd "C:\Users\matthew.cooper\Box Sync\$*"
 
 cowsay -s "suppppp"
