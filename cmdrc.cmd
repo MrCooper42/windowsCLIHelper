@@ -27,13 +27,8 @@ doskey ....  = cd ..\..\..\$*
 doskey ..... = cd ..\..\..\..\$*
 doskey new     =start cmd.exe
 
-doskey ~       = cd c:\Users\matthew.cooper
-doskey go      = cd c:\Users\matthew.cooper\development\BenefitPointDev\
-doskey mci     = mvn clean install -P wldev
-doskey mcia    = cd c:\Users\matthew.cooper\development\BenefitPointDev ^&^& mvn clean install -P wldev
-doskey startserver = cd c:\Users\matthew.cooper\development\BenefitPointDev\ui ^&^& start cmd.exe /k grunt server ^&^& cd c:\Users\matthew.cooper\development\BenefitPointDev\weblogic\dev\bin ^&^& startWebLogic.cmd 
-doskey startwork = cd c:\Users\matthew.cooper\development\BenefitPointDev ^&^& mvn clean install -P wldev ^&^& cd c:\Users\matthew.cooper\development\BenefitPointDev\ui ^&^& start cmd.exe /k grunt server ^&^& cd c:\Users\matthew.cooper\development\BenefitPointDev\weblogic\dev\bin ^&^& startWebLogic.cmd
-:: doskey startday = cd c:\Users\matthew.cooper\development\BenefitPointDev ^&^& svn update ^&^& mvn clean install -P wldev ^&^& cd c:\Users\matthew.cooper\development\BenefitPointDev\ui ^&^& start cmd.exe /k grunt server ^&^& cd c:\Users\matthew.cooper\development\BenefitPointDev\weblogic\dev\bin ^&^& startWebLogic.cmd
+doskey ~       = cd c:\Users\Tippy
+doskey go      = cd c:\Users\Tippy\workspace\
 
 :: Common directories
 
