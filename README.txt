@@ -1,11 +1,16 @@
 adding persistant alias 
 in cmd
-1:
-```mkdir Bin & npm i -g cowsay & echo "So Cool!" > c:\users\********YOURUSERNAMEHERE******\Bin\cmdrc.cmd```
+
+1:Making a bin folder to hold all of your cmdrc doskey Commands
+mkdir Bin & npm i -g cowsay & echo "So Cool!" > c:\users\********YOURUSERNAMEHERE******\Bin\cmdrc.cmd
+
 2:make sure to add your own user name in the last bit after c:/
-```reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Command Processor" /v "Autorun" /d "\"c:\Users\**************YOURUSERNAMEHERE***************\Bin\cmdrc.cmd\""```
+reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Command Processor" /v "Autorun" /d "\"c:\Users\**************YOURUSERNAMEHERE***************\Bin\cmdrc.cmd\""
+
 3: open up your cmdrc.cmd file in an editor to add your own alias start with pasting in something like  (change your own path where my \matthew.cooper\development\BenefitPointDev\ is
-```echo "Matt is awesome sauce!"
+echo "Matt is awesome sauce!"
+
+
 @echo off
 
 :: Temporary system path at cmd startup
@@ -35,12 +40,11 @@ doskey ....  = cd ..\..\..\$*
 doskey ..... = cd ..\..\..\..\$*
 doskey new     =start cmd.exe
 
-doskey ~       = cd c:\Users\Tippy
-doskey go      = cd c:\Users\Tippy\workspace\
+doskey ~       = cd c:\Users\[Your User Name Here]
+doskey go      = cd c:\Users\[Your User Name Here]\workspace\
 
 :: Common directories
 
 ::DOSKEY box=cd "C:\Users\matthew.cooper\Box SyncS\$*"" 
 
 cowsay -s "Matt is so cool!"
-```
